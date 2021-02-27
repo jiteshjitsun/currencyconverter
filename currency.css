@@ -5,6 +5,9 @@ body {
     
 }
 
+#a1 {
+    text-align: center;
+}
 
 @keyframes back {
     from {background-color: black;}
