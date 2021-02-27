@@ -63,3 +63,18 @@ body {
     from {background-color: black;}
     to {background-color: aqua;}
 }
+
+.enjoy-css-2 {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    margin: 0 21px 0 113px;
+    border: none;
+    font: normal 16px/1 "Comic Sans MS", cursive, sans-serif;
+    color: black;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    background: rgba(241,196,15,0.9);
+    -webkit-box-shadow: 0 0 9px 4px rgba(0,0,0,0.5) ;
+    box-shadow: 0 0 9px 4px rgba(0,0,0,0.5) ;
+  }
