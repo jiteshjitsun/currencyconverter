@@ -5,10 +5,60 @@ body {
     
 }
 
-#a1 {
-    text-align: center;
-}
+.enjoy-css {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    position: relative;
+    margin: 188px 188px 188px 171px;
+    padding: 14px 24px 10px 20px;
+    border: 4px solid #349e39;
+    border-right: 13px solid #6ef474;
+    border-left: 12px solid #84ed78;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    font: normal normal bold 16px/normal "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: rgba(43,45,45,1);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: rgba(252,252,252,1);
+    -webkit-box-shadow: 8px 8px 0 0 rgba(43,28,28,0.2) ;
+    box-shadow: 8px 8px 0 0 rgba(43,28,28,0.2) ;
+    text-shadow: 1px 1px 0 rgba(255,255,255,0.66) ;
+    -webkit-transition: line-height 200ms cubic-bezier(0.6, -0.28, 0.735, 0.04) 1s;
+    -moz-transition: line-height 200ms cubic-bezier(0.6, -0.28, 0.735, 0.04) 1s;
+    -o-transition: line-height 200ms cubic-bezier(0.6, -0.28, 0.735, 0.04) 1s;
+    transition: line-height 200ms cubic-bezier(0.6, -0.28, 0.735, 0.04) 1s;
+    -webkit-transform: rotateX(-20.626480624709636deg) rotateY(10.886198107485642deg)   ;
+    transform: rotateX(-20.626480624709636deg) rotateY(10.886198107485642deg)   ;
+  }
 
+#enjoy-css-1 {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    cursor: pointer;
+    margin: 100px 0 0 255px;
+    padding: 19px 47px 18px 46px;
+    border: 1px solid #018dc4;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    font: normal 16px/normal Arial Black, Gadget, sans-serif;
+    color: rgba(237,251,255,0.9);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: rgba(155,89,182,1);
+    -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) ;
+    box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) ;
+    
+    -webkit-transition: background 300ms cubic-bezier(0.42, 0, 0.58, 1) 15ms;
+    -moz-transition: background 300ms cubic-bezier(0.42, 0, 0.58, 1) 15ms;
+    -o-transition: background 300ms cubic-bezier(0.42, 0, 0.58, 1) 15ms;
+    transition: background 300ms cubic-bezier(0.42, 0, 0.58, 1) 15ms;
+    
+  }
 @keyframes back {
     from {background-color: black;}
     to {background-color: aqua;}
