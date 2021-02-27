@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="currency.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currenecy exchange</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function(){
+            document.querySelector('form').onsubmit = function(){
+                fetch('https://api.exchangeratesapi.io/latest?base=USD')
+                .then(response =>  response.json())
+                .then(data => {
+                    const currency = document.querySelector('#currency').value.toUpperCase();
+                    const rate = data.rates[currency];
+                    if(rate !== undefined){
+                        document.querySelector('#result').innerHTML = `1 US dollar is equal to ${rate.toFixed(3)} ${currency}`;
+                    } else{
+                        document.querySelector('#result').innerHTML = "Invalid Currency.";
+                    }
+                    
+                    })
+                    .catch(error => {
+                        console.log('Error:', error);
+                    }); 
+            return false;
+            }
+        
+        });
+    </script>
+</head>
+<body>
+    <form action="">
+        <div class="w3-container w3-center w3-animate-top" >
+        <input type="text" name="" id="currency" placeholder="currency">
+        <input type="submit" name="" id="" value="convert">
+        </div>
+    </form>
+    <br>
+    <div id="result"> </div>
+
+</body>
+</html>

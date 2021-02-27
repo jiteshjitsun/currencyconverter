@@ -1,0 +1,12 @@
+body {
+    background-color: black;
+    background-image: url('money.jpg');
+    background-size: cover;
+    
+}
+
+
+@keyframes back {
+    from {background-color: black;}
+    to {background-color: aqua;}
+}
